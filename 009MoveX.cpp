@@ -14,8 +14,7 @@ string f(string str) {
     string temp(1, str[0]);
 
     string subString = str.substr(1);
-    }
-
+    
     //1. ask your friend to move all the 'x' characters to the end of the given subString 
 
     string subStringFromMyFriend = f(subString);
